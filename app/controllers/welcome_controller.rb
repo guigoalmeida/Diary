@@ -1,7 +1,5 @@
 class WelcomeController < ApplicationController
-  
-
-  def index
+    def index
     @websites =[
     	["http://ruby.bastardsbook.com/toc/", "The bastards book of Ruby"], 
     	["https://en.wikibooks.org/wiki/Ruby_Programming", "Wikibooks"],

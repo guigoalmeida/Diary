@@ -1,36 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Diary</title>
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
-  <%= csrf_meta_tags %>
 </head>
 <body>
 
 <div>
-  <h1>My favourite websites</h1>
     <ul>
-      <li><a href="http://ruby.bastardsbook.com/toc/">The bastards book of Ruby</a></li>
-      <li><a href="https://en.wikibooks.org/wiki/Ruby_Programming">Wikibooks</a></li>
-      <li><a href="http://guides.rubyonrails.org">Ruby on Rails Guides</a></li>
-    </ul>
-  </div>
   <img src="https://lh6.googleusercontent.com/-NxZGUZXZg6A/AAAAAAAAAAI/AAAAAAAAAAc/QS4oVJL2NgI/photo.jpg" />
-
-
-<h1>My Diary</h1>
-  <div>
-    <h2>Submitted an initial page</h2>
-      <p>11.14.2014</p>
-      <p>Just submitted an initial page. Can’t wait to see whether it works!</p>
-      <h2>It works!</h2>
-      <p>11.15.2014</p>	
-      <p>yay! It works! We have now a social network</p>
-    <h2>The challenge continues…</h2>
-      <p>11.19.2014</p>
-      <p>Now we have a social network. I wonder what to do to get people using it.</p>
-  </div>
+</div>
 <%= yield %>
 
 </body>
